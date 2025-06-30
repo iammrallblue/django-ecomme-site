@@ -1,0 +1,29 @@
+# Django 電商專案依賴
+# 核心框架
+Django==5.1.7
+djangorestframework==3.15.2
+
+# 認證與安全
+djangorestframework-simplejwt==5.3.0
+django-cors-headers==4.3.1
+
+# 資料庫
+mysqlclient==2.2.4
+
+# 圖片處理
+Pillow==10.4.0
+
+# API 文檔
+drf-yasg==1.21.7
+
+# 開發工具
+python-decouple==3.8
+django-debug-toolbar==4.4.6
+
+# 測試
+pytest-django==4.8.0
+factory-boy==3.3.0
+
+# 生產環境
+gunicorn==21.2.0
+whitenoise==6.6.0
